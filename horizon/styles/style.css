@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {}
+
+body {
+    head {
+        .flex {
+            display: flex;
+            .headleft {
+                align-items: flex-start;
+                float: left;
+            }
+            .headmid {
+                float: none;
+                .hemidh1 {
+                    display: flex;
+                }
+            }
+            .headrit {
+                align-items: flex-end;
+                float: right;
+            }
+        }
+    }
+}
